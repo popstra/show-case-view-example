@@ -19,7 +19,6 @@ public class SingleShotActivity extends Activity {
                 .setTarget(viewTarget)
                 .setContentTitle("Content Title")
                 .setContentText("Context Text")
-                .singleShot(42)
                 .build();
     }
 }
